@@ -43,6 +43,7 @@ export default {
         "type",
         "author",
         "isPublished",
+        "path",
       ])
       .sortBy("createdDate", "desc")
       .where({

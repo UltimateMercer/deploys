@@ -15,10 +15,6 @@
     </div>
 
     <div class="header-basic-content">
-      <h5 class="">
-        <span class="badge bg-uv border border-light">Websites</span>
-        <span class="badge bg-uv border border-light">Posters</span>
-      </h5>
       <h1 class="article-title">
         <em>
           <span class="text-light bg-dark py-1">

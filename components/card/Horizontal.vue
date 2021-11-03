@@ -31,13 +31,13 @@
       </div>
     </div>
     <div class="d-flex align-items-center px-3 py-3">
-      <NuxtLink
+      <nuxt-link
         :to="article.path"
         class="btn btn-raised btn-read-more-sm ms-auto"
         :class="isDarkTheme ? 'btn-neon-yellow' : 'btn-uv'"
       >
         Ler mais...
-      </NuxtLink>
+      </nuxt-link>
     </div>
   </article>
 </template>

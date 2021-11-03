@@ -12,24 +12,6 @@
     <template v-if="headerLayout === 'portrait-right-full'">
       <HeaderPortrait :article="article" isFull isRight />
     </template>
-    <template v-if="headerLayout === 'landscape'">
-      <HeaderLandscape :article="article" />
-    </template>
-    <template v-if="headerLayout === 'parallax'">
-      <HeaderParallax :article="article" />
-    </template>
-    <template v-if="headerLayout === 'parallax-alt'">
-      <HeaderParallaxAlt :article="article" />
-    </template>
-    <template v-if="headerLayout === 'double-parallax'">
-      <HeaderDoubleParallax :article="article" />
-    </template>
-    <template v-if="headerLayout === 'profile'">
-      <HeaderProfile :article="article" />
-    </template>
-    <template v-if="headerLayout === 'circle-profile'">
-      <HeaderProfile :article="article" isCircle />
-    </template>
     <template v-if="headerLayout === 'basic'">
       <HeaderBasic :article="article" />
     </template>

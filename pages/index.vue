@@ -51,7 +51,6 @@ export default {
         channel: { $ne: "Jobs" },
       })
       .fetch();
-    console.log(articles);
     return { articles };
   },
 

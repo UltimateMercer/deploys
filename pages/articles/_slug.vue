@@ -1,11 +1,6 @@
 <template>
   <LayoutContent>
-    <template v-if="article.layout === 'two-column'">
-      <ArticleTwoColumn :article="article" />
-    </template>
-    <template v-else>
-      <Article :article="article" />
-    </template>
+    <Article :article="article" />
   </LayoutContent>
 </template>
 <script>

@@ -1,6 +1,7 @@
 import { createSEOMeta } from "./utils/seo.js";
 
 export default {
+  ssr: false,
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
 

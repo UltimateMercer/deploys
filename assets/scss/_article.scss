@@ -161,6 +161,21 @@
       white-space: pre-wrap !important;
     }
 
+    table {
+      margin-bottom: 1.5rem;
+    }
+
+    th,
+    td {
+      padding: 0.5rem;
+    }
+
+    table,
+    th,
+    td {
+      border: 1px solid $light;
+    }
+
     p,
     li,
     em {
@@ -255,7 +270,7 @@
     }
 
     ul {
-      margin-top: 0;
+      margin-top: 0.5rem;
     }
 
     li {
@@ -324,6 +339,12 @@
   .light-theme {
     color: $gray-900;
     background-color: $gray-100;
+
+    table,
+    th,
+    td {
+      border: 1px solid $dark;
+    }
 
     h1,
     h2,
